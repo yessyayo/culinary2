@@ -1,0 +1,946 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1 {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.section1-content{
+    width: 328px;
+    height: 570px;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.section1-content img{
+    width: 308px;
+   height: 326px;
+   border-radius: 10px;
+}
+
+.section1-text{
+    width: 317px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section1-txt{
+    width: 317px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.section1-txt h1{
+    width: 317px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+
+.section1-txt p{
+    width: 317px;
+    height: 66px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.read-article{
+    width: 138px;
+    height: 24px;
+    display: flex;
+    gap: 10px; 
+}
+
+.read-article a{
+    width: 104px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #EF882B;
+    text-decoration: none;
+}
+
+.read-article span{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    padding: 5px 0px;
+    color: #EF882B;
+}
+/* feature post section*/
+.section2{
+    width: 1440px;
+    height: 678px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E6EDED;
+
+}
+.section2 h1 {
+    width: 207px;
+    height: 42px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.section2-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin:0 auto;
+}
+
+.section2-action {
+    width: 274px;
+height: 430px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+padding: 20px 10px 32px 10px;
+border-radius: 10px;
+background: #FFFFFF;
+}
+
+.action-content {
+    width: 253.07px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.action-content img{
+    width: 172px;
+    height: 132px; 
+    border-radius: 6.55px ; 
+}
+
+.action-content h2{
+    width: 253.07px;
+    height: 48px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+}
+
+.action-content p {
+    width: 253.07px;
+    height: 88px;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: center; 
+}
+
+.section2-action button{
+    width: 95px;
+height: 44px;
+padding: 12px;
+border-radius: 8px;
+border: 0.81px solid #034E4A;
+}
+.section2-action button a{
+    width: 71px;
+    height: 20px;
+    font-size: 12.9px;
+    font-weight: 500;
+    line-height: 19.34px;
+    text-decoration: none;
+}
+/* favourites post section*/
+.section3{
+    width: 1440px;
+    height: 678px;
+    background: #B1C8C7; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 h1{
+    width: 207px;
+    height: 42px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 50px 0;
+}
+
+.section3-action{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.action{
+    width: 334px;
+height: 450px;
+padding: 20px 10px 32px 10px;
+border-radius: 12px;
+background: #FFFFFF;
+}
+
+.action-class{
+    width: 314px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.action-class img{
+    width: 314px;
+    height: 242px;
+    border-radius: 12px 0px 0px 0px;
+    
+}
+
+.action-class-text{
+    width: 314px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.action-class-text h2{
+    width: 314px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+.action-class-text p{
+    width: 314px;
+    height: 66px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+.action-class{
+width: 314px;
+height: 22px;
+}
+
+
+/* latest post section*/
+.latest-post{
+    width: 908px;
+    height: 1104px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.blog-text{
+    width: 908px;
+    height: 42px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.post-content{
+    width: 880px;
+    height: 302px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.lastest-text{
+    width: 492px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.post-text{
+    width:492px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.post-text h5{
+    width: 492px;
+    height: 34px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.post-text p{
+    width: 492px;
+    height: 144px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.post-text h6{
+    width: 492px;
+    height: 16px;
+    opacity: 50%;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.lastest-text button{
+    width: 122.39px;
+    height:40.8px;
+    padding: 8.16px;
+    gap: 6.53px;
+    border-radius: 6.53px;
+
+}
+
+button a{
+    width: 88px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+
+
+
+@media (max-width:1065px) {
+    .section1 {
+        width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    .section1-content{
+        width: 274px;
+        height: 522px;
+        gap: 24px;
+    }
+    .section1-content img{
+        width: 254px;
+       height: 272px;
+    }
+    
+    .section1-text{
+        width: 264px;
+        height: 186px;
+    }
+    
+
+    .section1-txt{
+        width: 264px;
+        height: 141px;
+    }
+
+    
+    .section1-txt h1{
+        width: 264px;
+        height: 41px;
+        font-size: 16px;
+        line-height: 20.03px;
+    
+    }
+    
+    
+    .section1-txt p{
+        width: 264px;
+        height: 88px;
+    }
+    
+    .read-article{
+        width: 117.03px;
+        height: 21px; 
+    }
+
+    .read-article a{
+        width: 87px;
+        height: 21px;
+        font-size: 10.02px;
+        line-height: 20.03px;
+    }
+
+    
+
+    
+    .read-article span{
+        width: 20.03px;
+        height: 20.03px;
+    }
+
+    /* feature post section*/
+    .section2{
+        width: 1440px;
+        height: 678px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #E6EDED;
+    
+    }
+    .section2 h1 {
+        width: 207px;
+        height: 42px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-top: 50px ;
+        text-align: center;
+    }
+    
+    .section2-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        margin:0 auto;
+    }
+    
+    .section2-action {
+        width: 274px;
+    height: 430px;
+    top: 136px;
+    left: 165px;
+    padding: 20px 10px 32px 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    }
+    
+    .action-content {
+        width: 253.07px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .action-content img{
+        width: 172px;
+        height: 132px; 
+        border-radius: 6.55px ; 
+    }
+    
+    .action-content h1{
+        width: 253.07px;
+        height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    }
+    
+    .action-content p {
+        width: 253.07px;
+        height: 88px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center; 
+    }
+    
+    .section2-action button{
+        width: 95px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0.81px solid #034E4A;
+    }
+    .section2-action button a{
+        width: 71px;
+        height: 20px;
+        font-size: 12.9px;
+        font-weight: 500;
+        line-height: 19.34px;
+    }
+
+    /* favourites post section*/
+    .section3{
+        width: 1024px;
+        height: 516px;
+    }
+
+
+    .section3 h1{
+        width: 147px;
+        height: 30px;
+        font-size: 19.91px;
+        line-height: 29.87px;
+    }
+
+    
+
+    .section3-action{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .action{
+        width: 244px;
+        height: 380px;
+        padding: 20px 10px 32px 10px;
+    }
+
+    .action-class{
+        width: 224px;
+        height: 342.09px;
+    }
+    
+
+    .action-class img{
+        width: 224px;
+        height: 172.09px;
+        border-radius: 8.53px;
+        
+    }
+    
+    .action-class-text{
+        width: 224px;
+        height: 128px;
+    }
+    
+    .action-class-text h2{
+        width: 224px;
+        height: 28px;
+    }
+
+
+    .action-class-text p{
+        width: 224px;
+        height: 88px;
+    }
+
+    
+    .action-class h6{
+    width: 223.29px;
+    height: 14px;
+    text-align: center;
+    }
+    
+    
+    /* latest post section*/
+    .latest-post{
+        width: 908px;
+        height: 1104px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin: 0 auto;
+    }
+    
+    .blog-text{
+        width: 908px;
+        height: 42px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+    
+    .post-content{
+        width: 880px;
+        height: 302px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+    }
+    
+    .lastest-text{
+        width: 492px;
+        height: 282px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .post-text{
+        width:492px;
+        height: 214px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .post-text h5{
+        width: 492px;
+        height: 34px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    
+    .post-text p{
+        width: 492px;
+        height: 144px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .post-text h6{
+        width: 492px;
+        height: 16px;
+        opacity: 50%;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+    
+    .lastest-text button{
+        width: 122.39px;
+        height:40.8px;
+        padding: 8.16px;
+        gap: 6.53px;
+        border-radius: 6.53px;
+    
+    }
+    
+    button a{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
+
+
+
+@media (max-width: 430px) {
+
+    .section1 {
+        width: 430px;
+        flex-direction: column;
+    }
+    
+    .section1-content{
+        width: 273px;
+        height: 476px;
+        padding: 10px 10px 30px 10px;
+        gap: 24px;
+    }
+    
+
+    .section1-content img{
+        width: 253px;
+       height: 272px;
+    }
+    
+
+    .section1-text{
+        width: 264px;
+        height: 140px;
+    }
+    
+
+    .section1-txt{
+        width: 264px;
+        height: 95px;
+        
+    
+    }
+    
+
+    .section1-txt h1{
+        width: 264px;
+        height: 41px;
+        font-size: 14px;
+        line-height: 24px;
+    
+    }
+
+    .section1-txt p{
+        width: 264px;
+        height: 642px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .read-article{
+        width: 117.03px;
+        height: 21px;
+    }
+
+
+    .read-article a{
+        width: 87px;
+        height: 21px;
+        font-size: 10.02px;
+        line-height: 20.03px;
+       
+    }
+
+    .read-article span{
+        width: 20.03px;
+        height: 20.03px;
+    }
+    
+
+    /* feature post section*/
+    .section2{
+        width: 1440px;
+        height: 678px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #E6EDED;
+    
+    }
+    .section2 h1 {
+        width: 207px;
+        height: 42px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-top: 50px ;
+        text-align: center;
+    }
+    
+    .section2-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        margin:0 auto;
+    }
+    
+    .section2-action {
+        width: 274px;
+    height: 430px;
+    top: 136px;
+    left: 165px;
+    padding: 20px 10px 32px 10px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    }
+    
+    .action-content {
+        width: 253.07px;
+        height: 292px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .action-content img{
+        width: 172px;
+        height: 132px; 
+        border-radius: 6.55px ; 
+    }
+    
+    .action-content h1{
+        width: 253.07px;
+        height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    }
+    
+    .action-content p {
+        width: 253.07px;
+        height: 88px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center; 
+    }
+    
+    .section2-action button{
+        width: 95px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0.81px solid #034E4A;
+    }
+    .section2-action button a{
+        width: 71px;
+        height: 20px;
+        font-size: 12.9px;
+        font-weight: 500;
+        line-height: 19.34px;
+    }
+
+
+    /* favourites post section*/
+    .section3{
+        width: 393px;
+        height: 1209px;
+    }
+    
+
+    .section3 h1{
+        width: 154px;
+        height: 30px;
+        font-size: 19.91px;
+        line-height:29.87px;
+        margin: 10px 0 30px;
+    }
+    
+    
+    .section3-action{
+        flex-direction: column;
+    }
+    .action{
+        width: 361px;
+        height: 338px;
+        padding: 12px;
+    }
+    
+    .action-class{
+        width: 337px;
+        height: 330spxpx;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .action-class img{
+        width: 337px;
+        height: 180px;
+        border-radius: 8.53px;
+    }
+    
+    .action-class-text{
+        width: 324px;
+        height: 94px;
+        gap: 12px;
+        
+    }
+    
+
+    .action-class-text h2{
+        width: 324px;
+        height: 28px;
+    }
+
+
+    .action-class-text p{
+        width: 324px;
+        height: 28px;
+    }
+    .action-class h6{
+    width: 324px;
+    height: 14px;
+    text-align: center;
+
+    }
+    
+    
+    /* latest post section*/
+    .latest-post{
+        width: 393px;
+        height: auto;
+    }
+    
+    .blog-text{
+        width: 180px;
+        height: 42px;
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .post-content{
+        width: 361px;
+        height: 586px;
+        padding: 10px;
+        flex-direction: column;
+        gap: 12px;
+    
+    }
+    .post-content img{
+        width: 340px;
+        height: 230px;
+        border-radius: 10px 0px 0px 0px;
+
+    }
+    
+    .lastest-text{
+        width: 361px;
+        height: 282px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+
+    .post-text{
+        width:361px;
+        height: 256px;
+        gap: 12px;
+    }
+    .post-text h5{
+        width: 361px;
+        height: 34px;
+    }
+
+    
+    .post-text p{
+        width: 61px;
+        height: 191px;
+    }
+
+    
+    .post-text h6{
+        position: absolute;
+        width: 361px;
+        height: 16px;
+        opacity: 50%;
+        top: 300px;
+    }
+
+    .lastest-text button{
+        width: 122.39px;
+        height:40.8px;
+        padding: 8.16px;
+        gap: 6.53px;
+        border-radius: 6.53px;
+    
+    }
+    
+    button a{
+        width: 88px;
+        height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    
+}
